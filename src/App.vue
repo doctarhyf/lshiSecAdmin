@@ -1,17 +1,20 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img width="100px" alt="Vue logo" src="./assets/flame.png">
+    <!-- <HelloWorld msg="🤣Cool Welcome to Your Vue.js App"/> -->
+    <LshiSec name="my name new components 😁😝"></LshiSec>
+
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import LshiSec from './components/LshiSec.vue'
+//import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    LshiSec
   }
 }
 </script>
